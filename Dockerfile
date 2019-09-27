@@ -1,11 +1,11 @@
-FROM parrotstream/centos-openjdk:10
+FROM comchangs/centos-openjdk:10
 
-MAINTAINER Matteo Capitanio <matteo.capitanio@gmail.com>
+MAINTAINER Murry Jeong <comchangs@gmail.com>
 
 USER root
 
-ADD cloudera-cdh5.repo /etc/yum.repos.d/
-RUN rpm --import https://archive.cloudera.com/cdh5/redhat/7/x86_64/cdh/RPM-GPG-KEY-cloudera
+ADD cloudera-cdh6.repo /etc/yum.repos.d/
+RUN rpm --import https://archive.cloudera.com/cdh6/redhat/7/x86_64/cdh/RPM-GPG-KEY-cloudera
 RUN yum install -y initscripts kudu kudu-master kudu-tserver kudu-client0 kudu-client-devel kudu-debuginfo
 RUN yum clean all
 
