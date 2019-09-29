@@ -5,7 +5,7 @@ MAINTAINER Murry Jeong <comchangs@gmail.com>
 USER root
 
 ADD cloudera-cdh6.repo /etc/yum.repos.d/
-RUN rpm --import https://archive.cloudera.com/cdh6/redhat/7/x86_64/cdh/RPM-GPG-KEY-cloudera
+RUN rpm --import https://archive.cloudera.com/cdh6/6.3.0/redhat7/yum/RPM-GPG-KEY-cloudera
 RUN yum install -y initscripts kudu kudu-master kudu-tserver kudu-client0 kudu-client-devel kudu-debuginfo
 RUN yum clean all
 
