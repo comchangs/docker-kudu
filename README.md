@@ -18,7 +18,7 @@ You can also find other images based on different Apache Kudu releases, using a 
 
 Stop with Docker Compose:
 
-    docker-compose -p parrot up
+    docker-compose -p comchangs up
 
 
 **IMPORTANT**: You need the **ntpd** daemon running on the host. To install it:
