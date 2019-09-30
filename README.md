@@ -34,10 +34,3 @@ Once started you'll be able to access to the following UIs:
 |:----------------------------|:--------------------------|
 | *Kudu Master*               | http://localhost:8051     |
 | *Kudu Tablet Server*        | http://localhost:8050     |
-
-
-### Available tags:
-
-
-- Kudu 1.7.0 ([1.7.0-cdh5.15.1](https://github.com/comchangs/docker-kudu/blob/1.7.0-cdh5.15.1/Dockerfile), [latest](https://github.com/comchangs/docker-kudu/blob/latest/Dockerfile))
-- Kudu 1.3.0 ([1.3.0-cdh5.15.1](https://github.com/comchangss/docker-kudu/blob/1.3.0-cdh5.11.1/Dockerfile))
